@@ -13,6 +13,7 @@
   <style>
   </style>
 </head>
+<a href="#home" id="scrollTopBtn" title="Go to top">&#8679;</a>
 <body>
   
 <section id="navigation">
@@ -153,6 +154,26 @@
     </div><br>
     <p class="description">Actively took part in the Flipkart Runway challenge, gaining valuable exposure to real-world problem statements and enhancing competitive programming experience.</p>
   </div>
+
+
+<div class="certi">
+    <div class="header">
+<h3><i class="ri-article-fill"></i></h3>
+<h3><a href="codechef.pdf" download>Certificate</a></h3>
+    </div><br>
+    <p class="description">Earned a Certificate of Completion from CodeChef for successfully solving all practice problems under the 500 difficulty rating category.</p>
+  </div>
+
+
+<div class="certi">
+    <div class="header">
+<h3><i class="ri-trophy-fill"></i></h3>
+<h3>Achievements</h3>
+    </div><br>
+    <p class="description">Shortlisted at the college level for SIH 2024, a prestigious nationwide innovation challenge organized by the Government of India. Participated with a tech-driven solution addressing real-world problems.</p>
+  </div>
+
+
   <div class="certi">
     <div class="header">
 <h3><i class="ri-trophy-fill"></i></h3>
@@ -295,6 +316,8 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
+    <li>C#</li>
+    <li>Dart</li>
    </ul>
     </div>
     <div class="tools">
@@ -309,13 +332,15 @@
     </div>
     <div class="framwork">
 
-      <h3>Frameworks</h3><br>
+      <h3>Frameworks & Library</h3><br>
    <ul>
     <li>Spring Boot</li>
     <li>Hibernate</li>
     <li>Thymeleaf</li>
     <li>Django</li>
     <li>Bootstrap</li>
+    <li>React</li>
+    <li>Express.js</li>
    </ul>
     </div>
     <div class="db">
@@ -323,6 +348,15 @@
    <ul>
     <li>MySql</li>
     <li>SQLite</li>
+    <li>MongoDB</li>
+    
+   </ul>
+    </div>
+
+     <div class="env">
+      <h3>Runtime Environment</h3><br>
+   <ul>
+   <li>Node.js</li>
     
    </ul>
     </div>
@@ -351,6 +385,16 @@
     const navLinks = document.getElementById("navLinks");
     navLinks.classList.toggle("active");
   }
+
+window.onscroll = function () {
+  const btn = document.getElementById("scrollTopBtn");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
 </script>
 
 
