@@ -20,7 +20,30 @@
     body {
       font-family: Arial, sans-serif;
     }
+    
+    /* Scroll to Top Button */
+    #scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #140b59;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
 
+  #scrollTopBtn:hover {
+    background-color: #1e1395;
+    transform: scale(1.1);
+  }
 
     /*navigation*/
   
@@ -560,12 +583,12 @@ transition: all 0.3s ease;
   flex-wrap: wrap;
 }
 
-.tech h3, .tools h3, .framwork h3, .db h3 {
+.tech h3, .tools h3, .framwork h3, .db h3,.env h3 {
   font-size: 21px;
   color: #20209c;
 }
 
-.tech,.tools,.framwork,.db{
+.tech,.tools,.framwork,.db,.env{
   height: 190px;
   width: 320px;
   border-radius: 10px;
@@ -589,6 +612,13 @@ transition: all 0.3s ease;
 .tech:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
   transform: translateY(-5px); 
+}
+.env:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-5px); 
+}
+.tech{
+  height: 221px;
 }
 @media(max-width:768px){
   .skill{
@@ -603,6 +633,9 @@ transition: all 0.3s ease;
 transition: all 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
 }
+.tech{
+  height: 221px;
+}
 .db:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
   transform: translateY(-5px); 
@@ -616,6 +649,10 @@ transition: all 0.3s ease;
   transform: translateY(-5px); 
 }
 .tech:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-5px); 
+}
+.env:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
   transform: translateY(-5px); 
 }
