@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="SmartInbox">
+  <defs>
+    <linearGradient id="si-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#si-bg)"/>
+  <rect x="220" y="130" width="360" height="220" rx="16" fill="#fff" opacity="0.15" stroke="#fff" stroke-width="2" stroke-opacity="0.35"/>
+  <path d="M240 155 L400 255 L560 155" fill="none" stroke="#fff" stroke-width="3" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="280" y="290" width="240" height="14" rx="7" fill="#fff" opacity="0.25"/>
+  <rect x="320" y="315" width="160" height="10" rx="5" fill="#fff" opacity="0.18"/>
+</svg>
